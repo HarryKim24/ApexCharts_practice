@@ -1,9 +1,12 @@
 import './App.css';
+import StaticCharts from './components/StaticCharts';
 
 function App() {
+
   return (
-    <div className="App">
-      
+    <div style={{ width: '600px', margin: 'auto' }}>
+      <StaticCharts />
+      <hr/>
     </div>
   );
 }
