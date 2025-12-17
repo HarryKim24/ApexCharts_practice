@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import './App.css';
 import CandleChart from './components/CandleChart';
+import CandleChartRandom from './components/CandleChartRandom';
 import ChangeRateCharts from './components/ChangeRateCharts';
 import LiveApiCharts from './components/LiveApiCharts';
 import LiveCharts from './components/LiveCharts';
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div style={{ width: '600px', margin: 'auto' }}>
-      <CandleChart />
+      <CandleChartRandom />
     </div>
   );
 }
