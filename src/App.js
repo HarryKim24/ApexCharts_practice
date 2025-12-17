@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
+import ChangeRateCharts from './components/ChangeRateCharts';
 import LiveApiCharts from './components/LiveApiCharts';
 import LiveCharts from './components/LiveCharts';
 import StaticApiCharts from './components/StaticApiCharts';
@@ -8,13 +10,7 @@ function App() {
 
   return (
     <div style={{ width: '600px', margin: 'auto' }}>
-      <LiveApiCharts />
-      <hr/>
-      <StaticApiCharts />
-      <hr/>
-      <LiveCharts />
-      <hr/>
-      <StaticCharts />
+      <ChangeRateCharts />
     </div>
   );
 }
